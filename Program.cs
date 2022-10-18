@@ -4,7 +4,7 @@
 
 1, -7, 567, 89, 223-> 3 */
 
-Console.WriteLine("Сколько числе будем проверять: ");
+Console.WriteLine("Сколько чисел будем проверять?: ");
 int M = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine($"Вы ввели {CountPositiveNums(M)} положительных числа из {M}");
